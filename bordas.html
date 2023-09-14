@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Bordas</title>
+    <style>
+        a{
+            /* border-width: thin;
+            border-color: red;
+            border-style: solid; */
+            border: thin red solid;
+            border-top: 10px solid blue; 
+            /* o que prevalece é o último código, efeito cascata */
+        }
+    </style>
+</head>
+<body>
+    <!-- div#cursos>(p.*2+a{Mais informações}) -->
+    <div id="cursos">
+        <p class="engenharia">Engenharia</p>
+        <p class="farmacia">Farmácia</p>
+        <a href="">Mais informações</a>
+    </div>    
+</body>
+</html>
