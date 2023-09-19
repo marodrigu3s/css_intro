@@ -1,0 +1,10 @@
+Ordem de Especificidade 
+- Estilização InLine
+- Id
+- Classe/Pseudo-classe
+- Atributos 
+- Tag
+
+- Efeito cascata: quando tiverem duas estilizações de mesmo peso, prevalece a última 
+
+- Encoding: utf
